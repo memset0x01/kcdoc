@@ -39,14 +39,14 @@ params:
     displayTitle: true
     displayLogo: false
   search:
-    enable: false
+    enable: true
     type: flexsearch
     flexsearch:
       index: content
+      tokenize: forward
   highlight:
     copy:
       enable: true 
-      # display: always
 markup:
   goldmark:
     renderer:
