@@ -8,6 +8,8 @@ weight: 6
 ### 5-1 南方海域前面 `南方海域進出作戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD5-1.webp)
 
+{{% details title="分歧条件" closed="true" %}}
+
 | 分岐点 | 条件 |
 | -- | -- |
 | start | - BB系+CV系>=5 去A<br>- CA系>=4 且 CL>=1 去B<br>- CA系>=2 且 CL=1 去B<br>- DD>=2 且 BB系+CV系<=2 去B<br>- DD>=2 且 CL>=1 且 CV+CVB=0: 25%去A, 75%去B<br>- BB系+CV系>=4: 90%去A, 10%去B<br>- 其余75%去A, 25%去B |
@@ -15,8 +17,12 @@ weight: 6
 | F | - 最速舰队 去J(优先级待测试)<br>- 舰队中只包含SS系 去G?<br>- BB系+CV系>=4 去H<br>- BB系+CV系=3 随机去G/H/J<br>- BB系+CV系<=2<br>&nbsp;&nbsp;- CL>=1<br>&nbsp;&nbsp;&nbsp;&nbsp;- DD>=2 去J<br>&nbsp;&nbsp;&nbsp;&nbsp;- DD<=1 去G<br>&nbsp;&nbsp;- CL=0<br>&nbsp;&nbsp;&nbsp;&nbsp;- DD>=4 去J<br>&nbsp;&nbsp;&nbsp;&nbsp;- DD=3 约5%去G, 95%去J<br>&nbsp;&nbsp;&nbsp;&nbsp;- DD=2 约40%去G, 60%去J<br>&nbsp;&nbsp;&nbsp;&nbsp;- DD=1 去G?<br>&nbsp;&nbsp;&nbsp;&nbsp;- DD=0 去H? |
 | G | - BB系+CV系>=5 去I<br>- CA系>=2 且 [高速+]或以上的舰队 去J<br>- CA系>=4 且 CA系+CL+DD=6 去J<br>- CA系>=4 75%去J, 25%去I<br>- CV+CVB>=1 35%去J, 65%去I<br>- CA系>=2 且 DD>=2 去J<br>- CA系=3 35%去J, 65%去I<br>- CA系=2 85%去J, 15%去I<br>- BB系+CVL<=2 且 DD>=2 去J<br>- CVL=0 且 CL>=1 且 DD>=2 去J<br>- CL=1 且 DD<=1 85%去J, 15%去I<br>- 其余35%去J, 65%去I |
 
+{{% /details %}}
+
 ### 5-2 珊瑚諸島沖 `珊瑚諸島沖海戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD5-2.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -27,8 +33,12 @@ weight: 6
 | G | - 随机去J/L? |
 | L | - 高速+以上舰队 去K?<br>- 分歧点系数=2<br>- 索敌>=62 去K (司令部系数0.35, 索敌>=68)<br>- 60~62索敌 随机去M/K<br>- 索敌<60 去M<br>- 目前没有去N的记录 |
 
+{{% /details %}}
+
 ### 5-3 サブ島沖海域 `第一次サーモン沖海戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD5-3.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 > 大发系: 大発動艇, 特大発動艇, 大発動艇(八九式中戦車&陸戦隊), 特二式内火艇, 武装大発
 
@@ -42,8 +52,12 @@ weight: 6
 | J | - SS系>=1 随机去L/M/N<br>- CV+CVB>=1 去M<br>- CVL>=2 去M<br>- BB系+CVL>=4 去M<br>- CVL=1<br>&nbsp;&nbsp;- BB>=2 去N<br>&nbsp;&nbsp;- BBV>=1 随机去L/N<br>&nbsp;&nbsp;- DD>=3 去L<br>&nbsp;&nbsp;- DD=2<br>&nbsp;&nbsp;&nbsp;&nbsp;- CL>=1 去L<br>&nbsp;&nbsp;&nbsp;&nbsp;- CA+CAV>=3 去L?<br>&nbsp;&nbsp;&nbsp;&nbsp;- 其余去N<br>&nbsp;&nbsp;- DD<=1 随机去L/N?<br>- CVL=0 随机去L/N |
 | K | - DD>=4 去H<br>- DD>=3 且 CL>=1 去H<br>- DD>=2<br>&nbsp;&nbsp;- BBV>=1 去H<br>&nbsp;&nbsp;- AO>=1 去H<br>&nbsp;&nbsp;- AS>=1 去H<br>&nbsp;&nbsp;- 高速+以上的舰队 去H<br>&nbsp;&nbsp;- 装备[ドラム缶]的船数>=2 去H<br>&nbsp;&nbsp;- 装备[大发系]的船数>=2 去H<br>- 其余去E |
 
+{{% /details %}}
+
 ### 5-4 サーモン海域 `東京急行`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD5-4.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 > 大发系: 大発動艇, 特大発動艇, 大発動艇(八九式中戦車&陸戦隊), 特二式内火艇, 武装大発
 
@@ -57,8 +71,12 @@ weight: 6
 | L | - BB系+CV+CVB>=5 随机去N<br>- 高速+以上的舰队去P<br>- 分歧点系数=2<br>&nbsp;&nbsp;- 索敌>=`60` 去P(司令部系数0.35, 索敌>=`66`)<br>&nbsp;&nbsp;- 索敌`56~60` 随机去N/P, 索敌越高去P概率越高<br>&nbsp;&nbsp;- 索敌<`56` 去N |
 | M | - SS系>=1 随机去O<br>- 高速+以上的舰队去P<br>- 分歧点系数=2<br>&nbsp;&nbsp;- 索敌>=`45` 去P(司令部系数0.35, 索敌>=`51`)<br>&nbsp;&nbsp;- 索敌`41~45` 随机去O/P, 索敌越高去P概率越高<br>&nbsp;&nbsp;- 索敌<`41` 去O |
 
+{{% /details %}}
+
 ### 5-5 サーモン海域北方 `第二次サーモン海戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD5-5.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 > 大发系: 大発動艇, 大発動艇(八九式中戦車&陸戦隊), 特大発動艇, 武装大発, 大発動艇(II号戦車/北アフリカ仕様), 特大発動艇+一式砲戦車, 特二式内火艇, 特四式内火艇, 特四式内火艇改
 
@@ -73,3 +91,4 @@ weight: 6
 | N | - 经过M的舰队 去O<br>- 高速+、最速舰队 去O<br>- AO>=1 去O<br>- CV+CVB>=1去M<br>- BB系+CVL>=3 去M<br>- DD>=2 去O<br>- DD<=1 去M |
 | O | - 高速+、最速舰队 去S<br>- SS+SSV>=1: 35%去R<br>- 分歧点系数=2, 索敌>=`66` 去S(司令部系数0.35, 索敌>=`72`)<br>&nbsp;&nbsp;- 索敌`63~66`, 索敌越高去S概率越高<br>&nbsp;&nbsp;- 索敌不足`63` 去R |
 | P | - 最速舰队 去S<br>- 高速+舰队 且 BB系+CV系<=5 去S<br>- BB系+CV系>=5: 35%去Q<br>- SS+SSV>=1: 35%去Q<br>- 分歧点系数=2, 索敌>=`80` 去S(司令部系数0.35, 索敌>=`86`)<br>&nbsp;&nbsp;- 索敌`73~80`, 索敌越高去S概率越高<br>&nbsp;&nbsp;- 索敌不足`73` 去Q |
+{{% /details %}}

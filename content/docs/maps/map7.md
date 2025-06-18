@@ -8,6 +8,8 @@ weight: 4
 ### 7-1 ブルネイ泊地沖 `ブルネイ泊地沖哨戒`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD7-1.webp)
 
+{{% details title="分歧条件" closed="true" %}}
+
 | 分岐点 | 条件 |
 | -- | -- |
 | start | - 舰队船数=6<br>&nbsp;&nbsp;- SS系>=1 大概率去B, 小概率去D<br>&nbsp;&nbsp;- 其余去B<br>- 舰队船数=5<br>&nbsp;&nbsp;- SS系>=1 随机去B/D<br>&nbsp;&nbsp;- BB系+CV系>=1 去B<br>&nbsp;&nbsp;- 其余去D<br>- 舰队船数<=4<br>&nbsp;&nbsp;- SS系>=1 随机去B/D/F<br>&nbsp;&nbsp;- BB系+CV系>=1 去B<br>&nbsp;&nbsp;- AO>=1 去D<br>&nbsp;&nbsp;- 其余去F |
@@ -15,8 +17,12 @@ weight: 4
 | D | - DD+DE=5 去E<br>- DD+DE=4<br>&nbsp;&nbsp;- CL=1 且 DD=4 去E<br>&nbsp;&nbsp;- CT>=1 去E<br>&nbsp;&nbsp;- AO>=1 去E<br>&nbsp;&nbsp;- DE=3 去E<br>&nbsp;&nbsp;- AV=0 去C<br>&nbsp;&nbsp;- AV>=1: 约65%去C, 35%去E<br>- DD+DE<=3<br>&nbsp;&nbsp;- AO>=1 且 DE=3 去E<br>&nbsp;&nbsp;- 其余去C |
 | H | - CL=1 且 DD>=4 去K<br>- DD>=1 且 DE>=3 去K<br>- BB系+CV系>=3 去J<br>- AV>=1: 65%去K, 35%去I<br>- 其余大概率去K, 中概率去I, 小概率去J<br>&nbsp;&nbsp;- BB系+CV系越多越容易去J?<br>&nbsp;&nbsp;- AO、AS、CT更容易去I? |
 
+{{% /details %}}
+
 ### 7-2 タウイタウイ泊地沖 `セレベス海戦闘哨戒`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD7-2.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -26,8 +32,12 @@ weight: 4
 | E | - 舰队船数<=5 去G<br>- DD+DE>=5 去G<br>- DE=3 去G<br>- 分歧点系数=4<br>&nbsp;&nbsp;- 索敌>=`47` 去G<br>&nbsp;&nbsp;- 索敌不足去F |
 | I | - AO>=1 去J<br>- AV>=1 且 DD+DE>=3 去J<br>- 分歧点系数=4<br>&nbsp;&nbsp;- 索敌>=`69` 去M<br>&nbsp;&nbsp;- 索敌`63~69` 随机去L/M, 索敌越高去M概率越高<br>&nbsp;&nbsp;- 索敌<`63` 去L? |
 
+{{% /details %}}
+
 ### 7-3 ペナン島沖 `マラッカ海峡を抜けて`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD7-3.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -39,8 +49,12 @@ weight: 4
 | J | - BB系+CV系>=1 去M<br>- 低速舰队 去M<br>- DD<=1 去M<br>- DD=2<br>&nbsp;&nbsp;- `神风`+`羽黑`+`足柄`+妙高+高雄=5 去P<br>&nbsp;&nbsp;- CA系>=4 去M<br>&nbsp;&nbsp;- `神风`+`羽黑`+`足柄`=3 去P<br>&nbsp;&nbsp;- 其余去M<br>- DD>=3<br>&nbsp;&nbsp;- `神风`+`羽黑`+`足柄`>=2 去P<br>&nbsp;&nbsp;- CA系>=3 去M<br>&nbsp;&nbsp;- 其余去P |
 | M | - CV+CVB>=1 去N<br>- `神风`+`羽黑`+`足柄`=3 且 BB+FBB+CVL=0 去P?<br>- BB系+CVL>=2 去N<br>- SS系>=4? 去N<br>- BB=1 去O<br>- AO>=1 去O<br>- AV>=2 去O<br>- 其余去P |
 
+{{% /details %}}
+
 ### 7-4 昭南本土航路 `ヒ船団海上護衛作戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD7-4.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -52,8 +66,12 @@ weight: 4
 | K | - 目前全部K-M, 没有K-P的数据 |
 | M | - CT=1 且 DE>=3 且 大鹰级+CT+DD+DE=5 且 舰队船数=5 去P?<br>- 分歧点系数=4<br>&nbsp;&nbsp;- 索敌<45 去N<br>&nbsp;&nbsp;- 45<=索敌<47 随机去N<br>&nbsp;&nbsp;- 去N判定失败 或 索敌>=47 继续下面的判定<br>- 分歧点系数=4 索敌<`57`? 去O<br>- BB+CV+CVB>=1 去O<br>- FBB>=2 去O<br>- BBV>=2 去O<br>- CVL+あきつ丸>=2 去O<br>- AV>=2 去O<br>- CA系>=3 去O<br>- DD+DE<=1 去O<br>- 其余去P |
 
+{{% /details %}}
+
 ### 7-5 ジャワ島沖 `スラバヤ沖海戦・バタビア沖海戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD7-5.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -62,3 +80,5 @@ weight: 4
 | I | - 分歧点系数=4, 设固定去M的索敌值>=x<br>&nbsp;&nbsp;- 基础x=55, 在满足下列条件时, x取其中的最大值<br>&nbsp;&nbsp;- CV系=1, x=60<br>&nbsp;&nbsp;- BB系>=2, x=65<br>&nbsp;&nbsp;- CV系>=2, x=70<br>- 索敌在x-2~x之间, 随机去M/L<br>- 索敌小于x-2 固定去L |
 | J | - CVL=1 且 CA系=2 且 CL=1 且 DD+DE=2 去O<br>- [高速+]或以上的舰队 去O<br>- CV+CVB>=1 去N<br>- CVL>=3 去N<br>- BB>=2 去N<br>- BB系+CA系>=3 去N<br>- DD+DE<=1 去N<br>- DD+DE>=3 去O<br>- 高速舰队 去O<br>- 其余去N |
 | P | - 分歧点系数=4, 设固定不去S的索敌值>=x<br>&nbsp;&nbsp;- 基础x=58, 在满足下列条件时, x取其中的最大值<br>&nbsp;&nbsp;- CV系=1, x=63<br>&nbsp;&nbsp;- BB系>=2, x=68<br>&nbsp;&nbsp;- CV系>=2, x=73<br>&nbsp;&nbsp;- (司令部系数应为0.35, 基础64)<br>- 索敌在x-2~x之间, 随机去S<br>- 索敌小于x-2 固定去S<br>- [最速]舰队 去T<br>- CV+CVB>=1 去R<br>- BB系+CVL>=2 去R<br>- BB系+CA系>=3 去R<br>- CL=0 去R<br>- 其余去T |
+
+{{% /details %}}

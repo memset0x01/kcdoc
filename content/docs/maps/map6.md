@@ -8,6 +8,8 @@ weight: 7
 ### 6-1 中部海域哨戒線 `潜水艦作戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD6-1.webp)
 
+{{% details title="分歧条件" closed="true" %}}
+
 | 分岐点 | 条件 |
 | -- | -- |
 | start | - BB系+CV系+CA系>=3 去B<br>- BB系>=2 去B<br>- SS系>=3 且 SS系=舰队船数 去A<br>- AS=1 且 SS系>=3 且 AS+SS系=舰队船数 去A<br>- AS=1 且 SS系=3 且 DD=2 去A<br>- AS=1 且 SS系=4 且 CL+DD=1 去A<br>- CL+DD=0 去B<br>- 其余去C |
@@ -15,8 +17,12 @@ weight: 7
 | G | - SS+SSV<=2去I<br>- BB系+CV系+CA系>=2去I<br>- AS=0, 15%去I<br>- 去I判定失败<br>&nbsp;&nbsp;- 分歧点系数=4<br>&nbsp;&nbsp;&nbsp;&nbsp;- 索敌>=`16`去H<br>&nbsp;&nbsp;&nbsp;&nbsp;- 索敌<`12`去I<br>&nbsp;&nbsp;&nbsp;&nbsp;- 索敌`12~16`随机去H/I |
 | H | - AS>=1<br>&nbsp;&nbsp;- 分歧点系数=4<br>&nbsp;&nbsp;&nbsp;&nbsp;- 索敌>=`25`去K(司令部系数0.35, 索敌>=`31`)<br>&nbsp;&nbsp;&nbsp;&nbsp;- 索敌<`20`去E<br>&nbsp;&nbsp;&nbsp;&nbsp;- 索敌`20~25`随机去K/E<br>- AS=0<br>&nbsp;&nbsp;- 分歧点系数=4<br>&nbsp;&nbsp;&nbsp;&nbsp;- 索敌>=`36`去K(司令部系数0.35, 索敌>=`42`)<br>&nbsp;&nbsp;&nbsp;&nbsp;- 索敌`25~36`随机去J/K<br>&nbsp;&nbsp;&nbsp;&nbsp;- 索敌`20~25`随机去E/J/K<br>&nbsp;&nbsp;&nbsp;&nbsp;- 索敌<`20`去E |
 
+{{% /details %}}
+
 ### 6-2 MS諸島沖 `MS諸島防衛戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD6-2.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -28,16 +34,24 @@ weight: 7
 | H | - 分歧点系数=3, 样本太少索敌边界不明<br>&nbsp;&nbsp;- 可能`40`以上去K |
 | I | - SS系>=4 去G<br>- 分歧点系数=3<br>&nbsp;&nbsp;- 索敌>=`40` 去K<br>&nbsp;&nbsp;- 索敌`35~40` 随机去K/G<br>&nbsp;&nbsp;- 索敌<`35` 去G |
 
+{{% /details %}}
+
 ### 6-3 グアノ環礁沖海域 `K作戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD6-3.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
 | E | - CL>=3 去F<br>- AV>=2 去F<br>- CL<=1 且 DD>=3 去G<br>- 其余60%去F, 40%去G |
 | H | - 分歧点系数=3<br>&nbsp;&nbsp;- 索敌>=`38` 去J<br>&nbsp;&nbsp;- 索敌`36~38` 随机去J/I<br>&nbsp;&nbsp;- 索敌<`36` 去I |
 
+{{% /details %}}
+
 ### 6-4 中部北海域ピーコック島沖 `離島再攻略作戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD6-4.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 > 1=左側, 2=右側
 
@@ -50,8 +64,12 @@ weight: 7
 | J | - CL=0 去L<br>- DD<=1 去L<br>- BB系+CV系>=3 且 `长门改二`+`陆奥改二`<=1 去L<br>- LHA>=1 去N<br>- CV系<=1 去I<br>- 高速舰队 去I<br>- 低速舰队 去L |
 | K | - BB系>=2 去H<br>- BB系+CA系>=3 去H<br>- DD<=1 去H<br>- 其余去J |
 
+{{% /details %}}
+
 ### 6-5 KW環礁沖海域 `空母機動部隊迎撃戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD6-5.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -62,3 +80,4 @@ weight: 7
 | G | - 分歧点系数=3, 索敌>=50去M<br>- 索敌不足, 去K |
 | I | - CL=0 去H<br>- DD>=2 去J<br>- BB系>=1 去H<br>- CV系>=3 去H<br>- CV系+CA系>=5 去H<br>- 其余去J |
 | J | - 分歧点系数=3, 索敌>=35去M<br>- 索敌不足, 去L |
+{{% /details %}}

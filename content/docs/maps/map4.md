@@ -8,6 +8,8 @@ weight: 5
 ### 4-1 ジャム島沖 `ジャム島攻略作戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD4-1.webp)
 
+{{% details title="分歧条件" closed="true" %}}
+
 | 分岐点 | 条件 |
 | -- | -- |
 | start | - 50%去A，50%去C |
@@ -16,8 +18,16 @@ weight: 5
 | F | - BB系+CV系>=1 去D<br>- CA系>=1 且 CL=0 去D<br>- DD+DE<=3 去D<br>- 其余去H |
 | H | - BB系+CV系<=1 且 DD+DE>=2 且 SS系=0 去J<br>- BB系+CV系<=2 且 DD+DE>=1 65%去J，35%去I<br>- BB系+CV系=3 且 DD+DE>=1 35%去J，65%去I<br>- 其余去I |
 
+{{% /details %}}
+
+| 路线 | 索敌 | 制空 | 配置 |
+| --- | --- | --- | --- |
+| *->D->H->L | 0 | 72 | 1CL+2DD+2CA/CAV+1BB/CV |
+
 ### 4-2 カレー洋海域 `カレー洋制圧戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD4-2.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -28,8 +38,16 @@ weight: 5
 | G | - DD+DE>=3 去L<br>- DD+DE=2<br>&nbsp;&nbsp;- CL>=1 去L<br>&nbsp;&nbsp;- CAV>=1 去L<br>&nbsp;&nbsp;- AV>=1 去L<br>&nbsp;&nbsp;- BB系=4 去L<br>&nbsp;&nbsp;- 其余65%去L, 35%去F<br>- DD+DE<=1<br>&nbsp;&nbsp;- BB系+CV系>=5: 小概率去L, 大概率去I<br>&nbsp;&nbsp;- BB系+CV系=3~4: 50%~55%去L?<br>&nbsp;&nbsp;- BB系+CV系=2: 约60%去L?<br>&nbsp;&nbsp;- BB系+CV系<=1: 80%~90%去L?<br>&nbsp;&nbsp;- 去L判定失败时<br>&nbsp;&nbsp;&nbsp;&nbsp;- SS系>=1: 约80%去F, 20%去I<br>&nbsp;&nbsp;&nbsp;&nbsp;- 其余去F<br>&nbsp;&nbsp;- 另有7条 1DD+1CA+1CVL+1FBB+1CVB+大鲸 去F的数据, 不知是否固定? |
 | H | - DD>=2 去G<br>- DD+DE>=2: 约80%去G, 20%去K<br>- BB系+CV系>=5: 约20%去G, 80%去K<br>- 其余约50%去G, 50%去K |
 
+{{% /details %}}
+
+| 路线 | 索敌 | 制空 | 配置 |
+| --- | --- | --- | --- |
+| *->C/G->L | 0 | 168 | 2BB/CV+1CL+1CLT/CA/CAV+2DD |
+
 ### 4-3 リランカ島 `リランカ島空襲`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD4-3.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -43,8 +61,16 @@ weight: 5
 | K | - DD+DE<=1 去L<br>- CV系>=3 去L<br>- CV系=0 去L<br>- SS系>=1 去L<br>- 其余约50%去L, 50%去N |
 | L | - CL+DD+DE=0 去M<br>- BB系+CV系>=5 去M<br>- CV系=0 去M<br>- SS系>=1 35%去M, 65%去N<br>- CA>=2 去N<br>- BB系+CV系<=2 去N<br>- BB系+CV系=3 35%去M, 65%去N<br>- BB系+CV系=4 50%去M, 50%去N |
 
+{{% /details %}}
+
+| 路线 | 索敌 | 制空 | 配置 |
+| --- | --- | --- | --- |
+| *->H->N | 0 | 155 | 2CVL+1CL+3DD |
+
 ### 4-4 カスガダマ島 `カスガダマ沖海戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD4-4.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -55,8 +81,16 @@ weight: 5
 | G | - 约25%去C，50%去I，25%去J |
 | I | - DD+DE>=2<br>&nbsp;&nbsp;- CV+CVB=2 去K<br>&nbsp;&nbsp;- CA+CAV=2 去K<br>&nbsp;&nbsp;- CV+CVB=0 且 CL>=1 去K<br>&nbsp;&nbsp;- 其余25%去H，75%去K<br>- 其余约50%去H，50%去K |
 
+{{% /details %}}
+
+| 路线 | 索敌 | 制空 | 配置 |
+| --- | --- | --- | --- |
+| 1->A->E->->I->K | 0 | 144 | 3CVL+1CL+2DD/DE |
+
 ### 4-5 カレー洋リランカ島沖 `深海東洋艦隊漸減作戦`
 ![](https://r2.sakamoto.dpdns.org/imgs/MapHD4-5.webp)
+
+{{% details title="分歧条件" closed="true" %}}
 
 | 分岐点 | 条件 |
 | -- | -- |
@@ -69,3 +103,8 @@ weight: 5
 | O | - 低速舰队 且 CAV<=1 去N<br>- 其余随机去N/T(重舰队去N概率较高) |
 | Q | - 分歧点系数=2<br>- 索敌<`50` 去P<br>- 索敌`50~60` 随机去P<br>- 去P判定失败 或索敌>=60(司令部系数0.35, 索敌>=66)<br>&nbsp;&nbsp;- BB系+CV系>=5 去O<br>&nbsp;&nbsp;- DD=0 去O<br>&nbsp;&nbsp;- 其余去N |
 | R | - 高速+舰队 去N<br>- 低速舰队 去S<br>- DD<=1 去S<br>- CAV+CL+AV=0 去S<br>- 其余去N |
+{{% /details %}}
+
+| 路线 | 索敌 | 制空 | 配置 |
+| --- | --- | --- | --- |
+| 1->A/C->H->K | 0 | 207 | 2CVL+1CL+3DD |
