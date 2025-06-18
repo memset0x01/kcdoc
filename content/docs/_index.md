@@ -7,26 +7,29 @@ title: '定期任務'
 
 ### Extra Operation
 
-{{% details title="2-5" closed="true"%}}
-![](https://r2.sakamoto.dpdns.org/imgs/wBtCCTHdex.webp)
-{{% /details %}}
+#### 1-5
+![](https://r2.sakamoto.dpdns.org/imgs/bkK41mWfpJ.webp)
 
-{{% details title="3-5" closed="true"%}}
-![](https://r2.sakamoto.dpdns.org/imgs/VSnfekTVZ8.webp)
-{{% /details %}}
+#### 2-5
+![](https://r2.sakamoto.dpdns.org/imgs/2i7EoYuLsq.webp)
 
-{{% details title="4-5-1" closed="true"%}}
-![](https://r2.sakamoto.dpdns.org/imgs/whzABNfggu.webp)
-{{% /details %}}
+#### 7-5-1
+![](https://r2.sakamoto.dpdns.org/imgs/RoYWExLBt1.webp)
 
-{{% details title="4-5-2" closed="true"%}}
+#### 7-5-2
+![](https://r2.sakamoto.dpdns.org/imgs/dvElYY6gQR.webp)
+
+#### 7-5-3
+![](https://r2.sakamoto.dpdns.org/imgs/6QBxfoUQVA.webp)
+
+#### 3-5
+![](https://r2.sakamoto.dpdns.org/imgs/NHslOPlSGl.webp)
+
+#### 4-5
 ![](https://r2.sakamoto.dpdns.org/imgs/bMmseummpS.webp)
-{{% /details %}}
 
-{{% details title="5-5" closed="true"%}}
+#### 5-5
 ![](https://r2.sakamoto.dpdns.org/imgs/8SoiyMPtwN.webp)
-{{% /details %}}
 
-{{% details title="6-5" closed="true"%}}
+#### 6-5
 ![](https://r2.sakamoto.dpdns.org/imgs/XNR2cAYcg9.webp)
-{{% /details %}}
