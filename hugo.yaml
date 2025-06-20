@@ -25,12 +25,15 @@ menu:
     - name: "最近更新"
       url: "/"
       weight: 2
+    - name: "定期任務"
+      url: "/docs"
+      weight: 3
     - name: "Hugo Docs ↗"
       url: "https://gohugo.io/documentation/"
-      weight: 3
+      weight: 4
     - name: "Hextra Docs ↗"
       url: "https://imfing.github.io/hextra/"
-      weight: 4
+      weight: 5
 params:
   theme:
     default: system

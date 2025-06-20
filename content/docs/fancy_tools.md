@@ -8,7 +8,6 @@ weight: 7
 #### PAC
 
 ```js
-
 // define dmm list
 const dmm_list = {
     "www.dmm.com": 0,
