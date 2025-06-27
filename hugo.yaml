@@ -1,0 +1,62 @@
+baseURL: https://kcdoc.sakamoto.dpdns.org/
+title: 何これ
+theme: hextra
+enableGitInfo: true
+hasCJKLanguage: true
+enableInlineShortcodes: true
+menu:
+  main:
+    - name: Documentation
+      pageRef: /docs
+      weight: 1
+    - name: Search
+      weight: 2
+      params:
+        type: search
+
+  sidebar:
+    - name: Extra Link
+      params:
+        type: separator
+      weight: 1
+    - name: "最近更新"
+      url: "/"
+      weight: 2
+    - name: "定期任務"
+      url: "/docs"
+      weight: 3
+    - name: "Hugo Docs"
+      url: "https://gohugo.io/documentation/"
+      weight: 4
+    - name: "Hextra Docs"
+      url: "https://imfing.github.io/hextra/"
+      weight: 5
+    - name: "Repository ↗"
+      weight: 6
+      url: "https://github.com/memset0x01/kcdoc"
+
+params:
+  theme:
+    default: system
+    displayToggle: true
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+      tokenize: forward
+  highlight:
+    copy:
+      enable: true 
+  displayUpdatedDate: true
+  dateFormat: "2006-01-02T15:04:05Z"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
